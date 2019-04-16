@@ -15,10 +15,6 @@ namespace ConsoleApp1.Pages
         {
             //Enter the username
             //Open the browser
-
-
-           
-
             //open the url
 
 
