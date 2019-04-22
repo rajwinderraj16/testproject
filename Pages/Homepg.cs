@@ -15,11 +15,14 @@ namespace ConsoleApp1.Pages
 
             //click on the Administration dropdown
 
+            //wait.waitt(commondriver.driver, 3, "/html/body/div[3]/div/div/ul/li[5]/a");
+
             IWebElement BTN1 = commondriver.driver.FindElement(By.XPath("/html/body/div[3]/div/div/ul/li[5]/a"));
             BTN1.Click();
 
 
             //click on the Time/Material option
+
             IWebElement BTN2 = commondriver.driver.FindElement(By.XPath("/html/body/div[3]/div/div/ul/li[5]/ul/li[3]/a"));
             BTN2.Click();
         }
